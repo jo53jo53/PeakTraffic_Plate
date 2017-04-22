@@ -11,15 +11,44 @@ void time();
 };
 void main()
 {
+int license_plate;
+string date;
+string hour;
+
 void peakplate::plate()
 {
-cout << "Enter License Plate Number" << endl;
-}
+int dig;
+char day;
+cout << "Enter License Plate Number" ;
+cin >> license_plate;
+dig = license_plate % 10;
+if ( dig = 1 , 2){
+   day = "Monday";
+      if ( dig = 3 ,4){
+      day = "Tuesday";
+         if (dig = 5 , 6){  
+         day ="Wednesday";
+            if (dig = 7 , 8){
+            day = "Thursday";
+               if( dig = 9 , 0){
+               day = "Friday";
+               }
+            }
+         }
+       }
+   }
+ }  
 void peakplate::date()
 {
-cout << "Enter date aaaa/mm/dd" << endl;
+cout << "Enter date aaaa/mm/dd";
+cin >> date;
+function findaday(date);
 }
 void peakplate::time()
 {
-cout << "Enter hour format hh:mm" << endl;
+cout << "Enter 24 hour format hh:mm";
+cin >> hour
+string mm(hour,3,2);
+string hh(hour,0,2);
+
 }
