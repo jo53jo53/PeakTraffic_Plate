@@ -37,18 +37,27 @@ if ( dig = 1 , 2){
          }
        }
    }
- }  
+}  
 void peakplate::date()
 {
 cout << "Enter date aaaa/mm/dd";
 cin >> date;
-function findaday(date);
+function findaday(date); // call of a function that finds what day is the day in the date entered
+
 }
 void peakplate::time()
 {
 cout << "Enter 24 hour format hh:mm";
 cin >> hour
-string mm(hour,3,2);
+//string mm(hour,3,2);
 string hh(hour,0,2);
-
+if day == date{
+   if(7<hh<9 && 16<mm<19){
+  cout << " do not go to traffic";
+  }
+  }
+else
+cout << " enjoy it!"
+}
+system("pause");
 }
